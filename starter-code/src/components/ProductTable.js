@@ -8,12 +8,13 @@ class ProductTable extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      articleArray: ArticleList
+      articleArray: ArticleList,
+      showOnlyInStock: false
     };
   }
   render() {
     const { articleArray } = this.state;
-    const { filterValue, showOnlyAvailable } = this.props;
+    const { filterValue } = this.props;
     return (
       <Table bordered>
         <thead>

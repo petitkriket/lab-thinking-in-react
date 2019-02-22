@@ -22,23 +22,3 @@ class ProductRow extends Component {
 }
 
 export default ProductRow;
-
-// if (checked && item.stocked) {
-//   return (
-//     <tr>
-//       <td>{item.name}</td>
-//       <td>{item.price}</td>
-//     </tr>
-//   );
-// } else {
-//   return (
-//     <tr>
-//       {item.stocked ? (
-//         <td>{item.name}</td>
-//       ) : (
-//         <td className="text-danger">{item.name}</td>
-//       )}
-//       {item.stocked ? <td>{item.price}</td> : <td>Unavailable</td>}
-//     </tr>
-//   );
-// }
